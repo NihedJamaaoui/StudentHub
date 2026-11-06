@@ -7,8 +7,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
-import tn.isims.studenthubtn.tp.studenthub.RegisterActivity;
-
 public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
         TextView registerLink = findViewById(R.id.tvRegisterLink);
 
         loginBtn.setOnClickListener(v -> {
-
+            startActivity(new Intent(this, HomeActivity.class));
         });
 
         registerLink.setOnClickListener(v ->
