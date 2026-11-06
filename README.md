@@ -1,20 +1,15 @@
 # StudentHub
-Application mobile de gestion de la vie universitaire.
-
-# StudentHub
 
 Application mobile Android de gestion de la vie universitaire : matières,
 tâches, échéances, profil étudiant.
 
 ## Membres du binôme
-- Nom Prénom 1 — prénom1.nom1@isims.usf.tn
-- Nom Prénom 2 — prénom2.nom2@isims.usf.tn
+- Nihed Jamaoui — nihedjamaoui2002@gmail.com
 
 ## Technologies utilisées
-- Android (Java / Kotlin)
+- Android (Java)
 - Android Studio (Gradle)
 - Git & GitHub
-- (à venir) SQLite / Room
 
 ## Étapes pour ouvrir et exécuter le projet
 1. Cloner le dépôt :
