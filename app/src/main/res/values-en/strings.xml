@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudentHub</string>
+
+    <string name="login_title">Login</string>
+    <string name="login_button">Sign in</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create an account</string>
+
+    <string name="register_title">Create account</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="create_account_button">Create my account</string>
+
+    <string name="welcome_message">Welcome!</string>
+    <string name="my_subjects">My subjects</string>
+    <string name="my_tasks">My tasks</string>
+    <string name="upcoming_deadlines">Upcoming deadlines</string>
+    <string name="my_profile">My profile</string>
+
+    <string name="subjects_placeholder">No subject yet</string>
+    <string name="tasks_placeholder">No ongoing task</string>
+    <string name="deadlines_placeholder">No upcoming deadline</string>
+</resources>
