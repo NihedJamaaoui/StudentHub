@@ -9,7 +9,6 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <!-- Bandeau d'accueil -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,72 +20,69 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bienvenue !"
+            android:text="@string/welcome_message"
             android:textSize="16sp"
             android:layout_marginBottom="24dp"/>
 
-        <!-- Mes matières -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mes matières"
+            android:text="@string/my_subjects"
             android:textSize="18sp"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aucune matière pour le moment"
+            android:text="@string/subjects_placeholder"
             android:layout_marginBottom="20dp"/>
 
         <!-- Mes tâches -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mes tâches"
+            android:text="@string/my_tasks"
             android:textSize="18sp"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aucune tâche en cours"
+            android:text="@string/tasks_placeholder"
             android:layout_marginBottom="20dp"/>
 
-        <!-- Prochaines échéances -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Prochaines échéances"
+            android:text="@string/upcoming_deadlines"
             android:textSize="18sp"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aucune échéance à venir"
+            android:text="@string/deadlines_placeholder"
             android:layout_marginBottom="24dp"/>
 
-        <!-- Navigation -->
         <Button
             android:id="@+id/btnMatieres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mes matières"
+            android:text="@string/my_subjects"
             android:layout_marginBottom="8dp"/>
         <Button
             android:id="@+id/btnTaches"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mes tâches"
+            android:text="@string/my_tasks"
             android:layout_marginBottom="8dp"/>
         <Button
             android:id="@+id/btnEcheances"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Prochaines échéances"
+            android:text="@string/upcoming_deadlines"
             android:layout_marginBottom="8dp"/>
         <Button
             android:id="@+id/btnProfil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mon profil"/>
+            android:text="@string/my_profile"/>
     </LinearLayout>
 </ScrollView>
